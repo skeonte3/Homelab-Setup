@@ -99,8 +99,7 @@ A home Security Operations Center environment designed to simulate real enterpri
 4. Splunk detects and alerts on suspicious activity
 5. Incidents are investigated and documented as reports
 
-<img width="1384" height="957" alt="Screenshot 2026-05-26 220905" src="https://github.com/user-attachments/assets/74828e04-982d-470c-9fbf-025235546fdc" />
-
+[TailScale] <img width="1384" height="957" alt="Screenshot 2026-05-26 220905" src="https://github.com/user-attachments/assets/e7f613f0-d916-4fe6-a7d5-2af2a9c90850" />
 
 ---
 
