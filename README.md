@@ -30,7 +30,6 @@
 | Uptime Kuma | LXC Container | Service monitoring and alerting | 📅 Planned |
 | Plex | LXC/VM | Personal media server | 📅 Planned |
 | Nextcloud | LXC/VM | Self-hosted cloud storage | 📅 Planned |
-| Wireguard VPN | LXC Container | Remote access to homelab | 📅 Planned |
 | Tailscale | LXC Container | Secure remote access to homelab from anywhere | ✅ Running |
 ---
 
