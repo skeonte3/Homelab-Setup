@@ -31,7 +31,7 @@
 | Plex | LXC/VM | Personal media server | 📅 Planned |
 | Nextcloud | LXC/VM | Self-hosted cloud storage | 📅 Planned |
 | Wireguard VPN | LXC Container | Remote access to homelab | 📅 Planned |
-
+| Tailscale | LXC Container | Secure remote access to homelab from anywhere | ✅ Running |
 ---
 
 ## Pi-hole — Network Wide Ad Blocker
@@ -59,8 +59,27 @@ LXC containers use significantly less RAM and CPU than full virtual machines whi
 
 ### Results
 Pi-hole is actively blocking DNS queries across all devices on the network, reducing ad traffic and blocking known malicious and tracking domains.
-
 ---
+
+## Tailscale — Remote Access VPN
+
+### What is Tailscale?
+Tailscale creates a secure private network between all your devices using WireGuard under the hood. It allows remote access to your homelab from anywhere without complicated port forwarding or firewall rules.
+
+### Deployment
+- **Type:** Installed directly on Proxmox host
+- **Method:** Official Tailscale install script
+- **Authentication:** Connected to Tailscale account via CLI
+
+### Configuration
+- Proxmox accessible remotely via Tailscale IP at port 8006
+- Pi-hole set as DNS nameserver for all Tailscale devices
+- Override local DNS enabled — all Tailscale devices get network-wide ad blocking even away from home
+
+### Benefits
+- Access Proxmox UI from work or anywhere
+- Pi-hole ad blocking works on MacBook even on work WiFi
+- Secure encrypted tunnel — no open ports on home router
 
 ## SOC Analyst Lab *(In Progress)*
 
@@ -81,7 +100,8 @@ A home Security Operations Center environment designed to simulate real enterpri
 4. Splunk detects and alerts on suspicious activity
 5. Incidents are investigated and documented as reports
 
-*Full documentation coming soon*
+<img width="1384" height="957" alt="Screenshot 2026-05-26 220905" src="https://github.com/user-attachments/assets/74828e04-982d-470c-9fbf-025235546fdc" />
+
 
 ---
 
