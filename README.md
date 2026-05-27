@@ -60,6 +60,8 @@ LXC containers use significantly less RAM and CPU than full virtual machines whi
 Pi-hole is actively blocking DNS queries across all devices on the network, reducing ad traffic and blocking known malicious and tracking domains.
 ---
 
+[TailScale] <img width="1384" height="957" alt="Screenshot 2026-05-26 220905" src="https://github.com/user-attachments/assets/e7f613f0-d916-4fe6-a7d5-2af2a9c90850" />
+
 ## Tailscale — Remote Access VPN
 
 ### What is Tailscale?
@@ -98,8 +100,6 @@ A home Security Operations Center environment designed to simulate real enterpri
 3. Atomic Red Team simulates real attacker techniques on the Windows VM
 4. Splunk detects and alerts on suspicious activity
 5. Incidents are investigated and documented as reports
-
-[TailScale] <img width="1384" height="957" alt="Screenshot 2026-05-26 220905" src="https://github.com/user-attachments/assets/e7f613f0-d916-4fe6-a7d5-2af2a9c90850" />
 
 ---
 
